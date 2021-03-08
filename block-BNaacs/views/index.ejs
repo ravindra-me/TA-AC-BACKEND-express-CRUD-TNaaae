@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="bg-gray-500">
+    <header>
+      <div class="container flex justify-between align-center">
+        <a href="#" class="logo">School</a>
+        <ul class="nav flex">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Address</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="padding hero">
+        <article class="container flex justify-between align-center">
+          <div class="flex-45">
+            <h1 class="">
+              Welcome In S.B.M Inter college <br />
+              Rath Hamirpur Uttar Paresh
+            </h1>
+          </div>
+          <div class="font-0 flex-45">
+            <img src="/school.svg" alt="" class="img" />
+          </div>
+        </article>
+      </section>
+      <section class="padding">
+        <div class="container">
+          <h2 class="secondary-heading text-center">Students</h2>
+          <h3>Name: <%=data.name%></h3>
+          <h3>Class: <%= data.class %></h3>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
