@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+header {
+  padding: 1.25rem 0;
+  background: rgb(241, 233, 233);
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 900;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.btn {
+  padding: 1rem 1rem;
+  background: rgb(212, 151, 108);
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+}
+.btn span {
+  margin-left: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.padding {
+  padding: 5rem 0;
+}
+.flex-30 {
+  flex: 0 1 30%;
+}
+.card {
+  padding: 1rem;
+  background: skyblue;
+  border-radius: 0.45rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+h3 {
+  margin-top: 0.8rem;
+}
+.card span {
+  margin-right: 1rem;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
