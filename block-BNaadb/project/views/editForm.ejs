@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/form.css" />
+  </head>
+  <body>
+    <h1>Edit User Details</h1>
+    <form action="/users/<%= data._id%>" method="POST">
+      <input
+        type="text"
+        name="name"
+        class="form-control"
+        placeholder="Enter the name"
+        value="<%= data.name %>"
+      />
+      <input
+        type="email"
+        ,
+        name="email"
+        ,
+        class="form-control"
+        placeholder="enter your email"
+        value="<%= data.email %>"
+      />
+      <input
+        type="text"
+        name="date"
+        placeholder="enter your date birth"
+        class="form-control"
+        value="<%= data.date %>"
+      />
+      <input
+        type="text"
+        name="address"
+        placeholder="enter your address"
+        class="form-control"
+        value="<%= data.address %>"
+      />
+      <button type="submit">SUBMIT</button>
+    </form>
+  </body>
+</html>
